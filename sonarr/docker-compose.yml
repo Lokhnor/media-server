@@ -1,0 +1,16 @@
+---
+services:
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Etc/UTC
+    volumes:
+      - /path/to/sonarr/data:/config
+      - /shared/data/downloads:/downloads
+      - /shared/data/tvseries:/tvseries
+    ports:
+      - 8989:8989
+    restart: unless-stopped

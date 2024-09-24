@@ -1,0 +1,16 @@
+---
+services:
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Etc/UTC
+    volumes:
+      - /path/to/radarr/data:/config
+      - /shared/data/downloads:/downloads
+      - /shared/data/movies:/movies
+    ports:
+      - 7878:7878
+    restart: unless-stopped
