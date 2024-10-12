@@ -1,0 +1,16 @@
+---
+services:
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Etc/UTC
+    volumes:
+      - /path/to/lidarr/config:/config
+      - /shared/data/music:/music
+      - /shared/data/downloads:/downloads
+    ports:
+      - 8686:8686
+    restart: unless-stopped
