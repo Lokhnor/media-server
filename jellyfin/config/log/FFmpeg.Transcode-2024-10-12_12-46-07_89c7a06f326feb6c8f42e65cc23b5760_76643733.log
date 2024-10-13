@@ -1,0 +1,361 @@
+{"Protocol":0,"Id":"89c7a06f326feb6c8f42e65cc23b5760","Path":"/tvseries/From/Season 3/From - S03E01 - Shatter WEBDL-720p.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv","Size":287642105,"Name":"From - S03E01 - Shatter WEBDL-720p","IsRemote":false,"ETag":"482de52eca3fe60b2612d7529d302d1b","RunTimeTicks":30740910000,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"hevc","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"MiNX - Small HD episodes","VideoRange":1,"VideoRangeType":1,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"LocalizedHearingImpaired":null,"DisplayTitle":"MiNX - Small HD episodes - 720p - HEVC - SDR","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":null,"BitRate":748558,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Height":720,"Width":1280,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"Main","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":93,"IsAnamorphic":false},{"Codec":"aac","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"MiNX - Small HD episodes","VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":null,"LocalizedDefault":"Default","LocalizedForced":null,"LocalizedExternal":"External","LocalizedHearingImpaired":null,"DisplayTitle":"MiNX - Small HD episodes - English - AAC - Stereo - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":"stereo","BitRate":640000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":2,"SampleRate":48000,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":"LC","Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"MiNX - Small HD episodes","VideoRange":0,"VideoRangeType":0,"VideoDoViTitle":null,"AudioSpatialFormat":0,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","LocalizedHearingImpaired":"Hearing Impaired","DisplayTitle":"MiNX - Small HD episodes - English - Default - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":false,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Height":0,"Width":0,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":1388558,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":0,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -probesize 1G -f matroska -noautorotate -i file:"/tvseries/From/Season 3/From - S03E01 - Shatter WEBDL-720p.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 4678488 -bufsize 9356976 -profile:v:0 high -level 51 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -force_key_frames:0 "expr:gte(t,n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1280\,720*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1280/a\,720))/2)*2,format=yuv420p" -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type fmp4 -hls_fmp4_init_filename "d61f0a5089e4af9cf0ec076c7a5bb828-1.mp4" -start_number 0 -hls_segment_filename "/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb828%d.mp4" -hls_playlist_type vod -hls_list_size 0 -y "/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb828.m3u8"
+
+
+ffmpeg version 6.0.1-Jellyfin Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-opencl --enable-libdrm --enable-libxml2 --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libsvtav1 --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=arm64 --cross-prefix=/usr/bin/aarch64-linux-gnu- --toolchain=hardened --enable-cross-compile --enable-rkmpp --enable-rkrga
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, matroska,webm, from 'file:/tvseries/From/Season 3/From - S03E01 - Shatter WEBDL-720p.mkv':
+  Metadata:
+    title           : MiNX - From.S03E01.720p.WEB.x265-MiNX
+    COMMENT         : MiNX - Small HD episodes
+    ENCODER         : Lavf58.20.100
+  Duration: 00:51:14.09, start: 0.000000, bitrate: 748 kb/s
+  Stream #0:0: Video: hevc (Main), yuv420p(tv), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      title           : MiNX - Small HD episodes
+      BPS             : 7004157
+      NUMBER_OF_FRAMES: 73703
+      NUMBER_OF_BYTES : 2691373874
+      _STATISTICS_WRITING_APP: mkvmerge v84.0 ('Sleeper') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      ENCODER         : Lavc58.35.100 libx265
+      DURATION        : 00:51:14.073000000
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      title           : MiNX - Small HD episodes
+      BPS             : 640000
+      NUMBER_OF_FRAMES: 96064
+      NUMBER_OF_BYTES : 245923840
+      _STATISTICS_WRITING_APP: mkvmerge v84.0 ('Sleeper') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      ENCODER         : Lavc58.35.100 libfdk_aac
+      DURATION        : 00:51:14.091000000
+  Stream #0:2(eng): Subtitle: subrip (default)
+    Metadata:
+      title           : MiNX - Small HD episodes
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      BPS             : 70
+      NUMBER_OF_FRAMES: 903
+      NUMBER_OF_BYTES : 26257
+      _STATISTICS_WRITING_APP: mkvmerge v84.0 ('Sleeper') 64-bit
+      DURATION        : 00:50:16.056000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[libx264 @ 0x557f36cfe0] using SAR=1/1
+[libx264 @ 0x557f36cfe0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x557f36cfe0] profile Main, level 5.1, 4:2:0, 8-bit
+[libx264 @ 0x557f36cfe0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=4 chroma_me=0 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=23 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=4678 vbv_bufsize=9356 crf_max=0.0 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb828-1.mp4' for writing
+Output #0, hls, to '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb828.m3u8':
+  Metadata:
+    encoder         : Lavf60.3.100
+  Stream #0:0: Video: h264, yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 23.98 fps, 24k tbn (default)
+    Metadata:
+      encoder         : Lavc60.3.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 4678000/0/0 buffer size: 9356000 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.70 bitrate=N/A dup=1 drop=0 speed=1.23x    
+frame=   19 fps= 18 q=28.0 size=N/A time=00:00:01.57 bitrate=N/A dup=1 drop=0 speed=1.46x    
+frame=   35 fps= 22 q=28.0 size=N/A time=00:00:02.28 bitrate=N/A dup=1 drop=0 speed=1.44x    
+frame=   50 fps= 24 q=28.0 size=N/A time=00:00:02.90 bitrate=N/A dup=1 drop=0 speed=1.38x    
+frame=   68 fps= 26 q=28.0 size=N/A time=00:00:03.64 bitrate=N/A dup=1 drop=0 speed=1.38x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8280.mp4' for writing
+frame=   85 fps= 27 q=28.0 size=N/A time=00:00:04.33 bitrate=N/A dup=1 drop=0 speed=1.37x    
+frame=   96 fps= 25 q=28.0 size=N/A time=00:00:04.77 bitrate=N/A dup=1 drop=0 speed=1.26x    
+frame=  106 fps= 24 q=28.0 size=N/A time=00:00:05.24 bitrate=N/A dup=1 drop=0 speed= 1.2x    
+frame=  119 fps= 24 q=28.0 size=N/A time=00:00:05.73 bitrate=N/A dup=1 drop=0 speed=1.17x    
+frame=  129 fps= 24 q=28.0 size=N/A time=00:00:06.16 bitrate=N/A dup=1 drop=0 speed=1.14x    
+frame=  137 fps= 23 q=28.0 size=N/A time=00:00:06.48 bitrate=N/A dup=1 drop=0 speed=1.09x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8281.mp4' for writing
+frame=  146 fps= 23 q=28.0 size=N/A time=00:00:06.91 bitrate=N/A dup=1 drop=0 speed=1.07x    
+frame=  157 fps= 22 q=28.0 size=N/A time=00:00:07.36 bitrate=N/A dup=1 drop=0 speed=1.05x    
+frame=  169 fps= 22 q=28.0 size=N/A time=00:00:07.87 bitrate=N/A dup=1 drop=0 speed=1.03x    
+frame=  179 fps= 22 q=28.0 size=N/A time=00:00:08.25 bitrate=N/A dup=1 drop=0 speed=1.02x    
+frame=  187 fps= 22 q=28.0 size=N/A time=00:00:08.61 bitrate=N/A dup=1 drop=0 speed=0.997x    
+frame=  199 fps= 22 q=28.0 size=N/A time=00:00:09.11 bitrate=N/A dup=1 drop=0 speed=0.995x    
+frame=  212 fps= 22 q=25.0 size=N/A time=00:00:09.62 bitrate=N/A dup=1 drop=0 speed=0.992x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8282.mp4' for writing
+frame=  226 fps= 22 q=28.0 size=N/A time=00:00:10.24 bitrate=N/A dup=1 drop=0 speed=0.998x    
+frame=  243 fps= 23 q=28.0 size=N/A time=00:00:10.96 bitrate=N/A dup=1 drop=0 speed=1.02x    
+frame=  259 fps= 23 q=28.0 size=N/A time=00:00:11.62 bitrate=N/A dup=1 drop=0 speed=1.03x    
+frame=  277 fps= 23 q=28.0 size=N/A time=00:00:12.33 bitrate=N/A dup=1 drop=0 speed=1.04x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8283.mp4' for writing
+frame=  296 fps= 24 q=28.0 size=N/A time=00:00:13.16 bitrate=N/A dup=1 drop=0 speed=1.07x    
+frame=  311 fps= 24 q=28.0 size=N/A time=00:00:13.78 bitrate=N/A dup=1 drop=0 speed=1.07x    
+frame=  328 fps= 25 q=28.0 size=N/A time=00:00:14.46 bitrate=N/A dup=1 drop=0 speed=1.09x    
+frame=  343 fps= 25 q=28.0 size=N/A time=00:00:15.12 bitrate=N/A dup=1 drop=0 speed=1.09x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8284.mp4' for writing
+frame=  361 fps= 25 q=28.0 size=N/A time=00:00:15.87 bitrate=N/A dup=1 drop=0 speed=1.11x    
+frame=  380 fps= 26 q=28.0 size=N/A time=00:00:16.61 bitrate=N/A dup=1 drop=0 speed=1.12x    
+frame=  397 fps= 26 q=28.0 size=N/A time=00:00:17.34 bitrate=N/A dup=1 drop=0 speed=1.13x    
+frame=  409 fps= 26 q=28.0 size=N/A time=00:00:17.87 bitrate=N/A dup=1 drop=0 speed=1.12x    
+frame=  427 fps= 26 q=28.0 size=N/A time=00:00:18.58 bitrate=N/A dup=1 drop=0 speed=1.13x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8285.mp4' for writing
+frame=  440 fps= 26 q=28.0 size=N/A time=00:00:19.17 bitrate=N/A dup=1 drop=0 speed=1.13x    
+frame=  452 fps= 26 q=28.0 size=N/A time=00:00:19.67 bitrate=N/A dup=1 drop=0 speed=1.13x    
+frame=  468 fps= 26 q=28.0 size=N/A time=00:00:20.28 bitrate=N/A dup=1 drop=0 speed=1.13x    
+frame=  484 fps= 26 q=28.0 size=N/A time=00:00:20.97 bitrate=N/A dup=1 drop=0 speed=1.13x    
+frame=  499 fps= 26 q=28.0 size=N/A time=00:00:21.59 bitrate=N/A dup=1 drop=0 speed=1.14x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8286.mp4' for writing
+frame=  512 fps= 26 q=28.0 size=N/A time=00:00:22.16 bitrate=N/A dup=1 drop=0 speed=1.13x    
+frame=  528 fps= 26 q=28.0 size=N/A time=00:00:22.84 bitrate=N/A dup=1 drop=0 speed=1.14x    
+frame=  545 fps= 27 q=28.0 size=N/A time=00:00:23.51 bitrate=N/A dup=1 drop=0 speed=1.14x    
+frame=  563 fps= 27 q=28.0 size=N/A time=00:00:24.25 bitrate=N/A dup=1 drop=0 speed=1.15x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8287.mp4' for writing
+frame=  585 fps= 27 q=28.0 size=N/A time=00:00:25.17 bitrate=N/A dup=1 drop=0 speed=1.16x    
+frame=  607 fps= 27 q=28.0 size=N/A time=00:00:26.13 bitrate=N/A dup=1 drop=0 speed=1.18x    
+frame=  628 fps= 28 q=28.0 size=N/A time=00:00:27.00 bitrate=N/A dup=1 drop=0 speed=1.19x    
+frame=  647 fps= 28 q=28.0 size=N/A time=00:00:27.75 bitrate=N/A dup=1 drop=0 speed= 1.2x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8288.mp4' for writing
+frame=  664 fps= 28 q=28.0 size=N/A time=00:00:28.48 bitrate=N/A dup=1 drop=0 speed= 1.2x    
+frame=  677 fps= 28 q=28.0 size=N/A time=00:00:29.01 bitrate=N/A dup=1 drop=0 speed= 1.2x    
+frame=  690 fps= 28 q=28.0 size=N/A time=00:00:29.59 bitrate=N/A dup=1 drop=0 speed=1.19x    
+frame=  704 fps= 28 q=28.0 size=N/A time=00:00:30.18 bitrate=N/A dup=1 drop=0 speed=1.19x    
+frame=  716 fps= 28 q=28.0 size=N/A time=00:00:30.67 bitrate=N/A dup=1 drop=0 speed=1.19x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb8289.mp4' for writing
+frame=  730 fps= 28 q=28.0 size=N/A time=00:00:31.23 bitrate=N/A dup=1 drop=0 speed=1.19x    
+frame=  745 fps= 28 q=28.0 size=N/A time=00:00:31.89 bitrate=N/A dup=1 drop=0 speed=1.19x    
+frame=  761 fps= 28 q=28.0 size=N/A time=00:00:32.51 bitrate=N/A dup=1 drop=0 speed=1.18x    
+frame=  775 fps= 28 q=28.0 size=N/A time=00:00:33.11 bitrate=N/A dup=1 drop=0 speed=1.18x    
+frame=  790 fps= 28 q=28.0 size=N/A time=00:00:33.72 bitrate=N/A dup=1 drop=0 speed=1.18x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82810.mp4' for writing
+frame=  803 fps= 28 q=28.0 size=N/A time=00:00:34.26 bitrate=N/A dup=1 drop=0 speed=1.18x    
+frame=  821 fps= 28 q=28.0 size=N/A time=00:00:35.03 bitrate=N/A dup=1 drop=0 speed=1.18x    
+frame=  837 fps= 28 q=28.0 size=N/A time=00:00:35.73 bitrate=N/A dup=1 drop=0 speed=1.18x    
+frame=  858 fps= 28 q=28.0 size=N/A time=00:00:36.56 bitrate=N/A dup=1 drop=0 speed=1.19x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82811.mp4' for writing
+frame=  882 fps= 28 q=28.0 size=N/A time=00:00:37.56 bitrate=N/A dup=1 drop=0 speed= 1.2x    
+frame=  904 fps= 28 q=28.0 size=N/A time=00:00:38.48 bitrate=N/A dup=1 drop=0 speed=1.21x    
+frame=  918 fps= 28 q=28.0 size=N/A time=00:00:39.10 bitrate=N/A dup=1 drop=0 speed=1.21x    
+frame=  935 fps= 29 q=28.0 size=N/A time=00:00:39.76 bitrate=N/A dup=1 drop=0 speed=1.21x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82812.mp4' for writing
+frame=  954 fps= 29 q=28.0 size=N/A time=00:00:40.57 bitrate=N/A dup=1 drop=0 speed=1.22x    
+frame=  972 fps= 29 q=28.0 size=N/A time=00:00:41.30 bitrate=N/A dup=1 drop=0 speed=1.22x    
+frame=  987 fps= 29 q=28.0 size=N/A time=00:00:41.94 bitrate=N/A dup=1 drop=0 speed=1.22x    
+frame= 1002 fps= 29 q=25.0 size=N/A time=00:00:42.60 bitrate=N/A dup=1 drop=0 speed=1.22x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82813.mp4' for writing
+frame= 1020 fps= 29 q=28.0 size=N/A time=00:00:43.32 bitrate=N/A dup=1 drop=0 speed=1.22x    
+frame= 1037 fps= 29 q=28.0 size=N/A time=00:00:44.07 bitrate=N/A dup=1 drop=0 speed=1.23x    
+frame= 1059 fps= 29 q=28.0 size=N/A time=00:00:44.95 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1078 fps= 29 q=28.0 size=N/A time=00:00:45.73 bitrate=N/A dup=1 drop=0 speed=1.24x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82814.mp4' for writing
+frame= 1094 fps= 29 q=28.0 size=N/A time=00:00:46.40 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1108 fps= 29 q=28.0 size=N/A time=00:00:46.99 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1124 fps= 29 q=28.0 size=N/A time=00:00:47.70 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1139 fps= 29 q=28.0 size=N/A time=00:00:48.32 bitrate=N/A dup=1 drop=0 speed=1.24x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82815.mp4' for writing
+frame= 1155 fps= 29 q=28.0 size=N/A time=00:00:49.00 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1169 fps= 29 q=28.0 size=N/A time=00:00:49.57 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1191 fps= 29 q=28.0 size=N/A time=00:00:50.45 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1213 fps= 29 q=28.0 size=N/A time=00:00:51.41 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82816.mp4' for writing
+frame= 1229 fps= 29 q=28.0 size=N/A time=00:00:52.03 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 1242 fps= 29 q=28.0 size=N/A time=00:00:52.63 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1258 fps= 29 q=28.0 size=N/A time=00:00:53.29 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 1277 fps= 29 q=28.0 size=N/A time=00:00:54.03 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 1296 fps= 30 q=28.0 size=N/A time=00:00:54.82 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82817.mp4' for writing
+frame= 1317 fps= 30 q=28.0 size=N/A time=00:00:55.70 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 1339 fps= 30 q=28.0 size=N/A time=00:00:56.66 bitrate=N/A dup=1 drop=0 speed=1.26x    
+frame= 1363 fps= 30 q=25.0 size=N/A time=00:00:57.62 bitrate=N/A dup=1 drop=0 speed=1.27x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82818.mp4' for writing
+frame= 1383 fps= 30 q=28.0 size=N/A time=00:00:58.47 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1404 fps= 30 q=28.0 size=N/A time=00:00:59.37 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1420 fps= 30 q=28.0 size=N/A time=00:01:00.01 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1436 fps= 30 q=28.0 size=N/A time=00:01:00.67 bitrate=N/A dup=1 drop=0 speed=1.28x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82819.mp4' for writing
+frame= 1452 fps= 30 q=28.0 size=N/A time=00:01:01.33 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1465 fps= 30 q=28.0 size=N/A time=00:01:01.93 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1483 fps= 30 q=28.0 size=N/A time=00:01:02.67 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1500 fps= 30 q=28.0 size=N/A time=00:01:03.38 bitrate=N/A dup=1 drop=0 speed=1.28x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82820.mp4' for writing
+frame= 1515 fps= 30 q=28.0 size=N/A time=00:01:04.00 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1533 fps= 30 q=28.0 size=N/A time=00:01:04.72 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1549 fps= 30 q=28.0 size=N/A time=00:01:05.38 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1563 fps= 30 q=28.0 size=N/A time=00:01:05.96 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1575 fps= 30 q=28.0 size=N/A time=00:01:06.51 bitrate=N/A dup=1 drop=0 speed=1.27x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82821.mp4' for writing
+frame= 1588 fps= 30 q=28.0 size=N/A time=00:01:07.00 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1601 fps= 30 q=28.0 size=N/A time=00:01:07.56 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1616 fps= 30 q=28.0 size=N/A time=00:01:08.18 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1629 fps= 30 q=28.0 size=N/A time=00:01:08.75 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1646 fps= 30 q=28.0 size=N/A time=00:01:09.46 bitrate=N/A dup=1 drop=0 speed=1.27x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82822.mp4' for writing
+frame= 1668 fps= 30 q=28.0 size=N/A time=00:01:10.37 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 1693 fps= 30 q=28.0 size=N/A time=00:01:11.38 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1712 fps= 30 q=28.0 size=N/A time=00:01:12.19 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1727 fps= 30 q=28.0 size=N/A time=00:01:12.81 bitrate=N/A dup=1 drop=0 speed=1.28x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82823.mp4' for writing
+frame= 1744 fps= 30 q=28.0 size=N/A time=00:01:13.51 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1761 fps= 30 q=28.0 size=N/A time=00:01:14.26 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1777 fps= 30 q=28.0 size=N/A time=00:01:14.90 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1791 fps= 30 q=28.0 size=N/A time=00:01:15.52 bitrate=N/A dup=1 drop=0 speed=1.28x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82824.mp4' for writing
+frame= 1808 fps= 30 q=28.0 size=N/A time=00:01:16.22 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1827 fps= 30 q=28.0 size=N/A time=00:01:17.01 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 1849 fps= 31 q=28.0 size=N/A time=00:01:17.88 bitrate=N/A dup=1 drop=0 speed=1.29x    
+frame= 1871 fps= 31 q=28.0 size=N/A time=00:01:18.84 bitrate=N/A dup=1 drop=0 speed=1.29x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82825.mp4' for writing
+frame= 1895 fps= 31 q=28.0 size=N/A time=00:01:19.80 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 1919 fps= 31 q=28.0 size=N/A time=00:01:20.81 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 1939 fps= 31 q=28.0 size=N/A time=00:01:21.68 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82826.mp4' for writing
+frame= 1958 fps= 31 q=28.0 size=N/A time=00:01:22.45 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 1971 fps= 31 q=28.0 size=N/A time=00:01:23.03 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 1987 fps= 31 q=28.0 size=N/A time=00:01:23.64 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2002 fps= 31 q=28.0 size=N/A time=00:01:24.31 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82827.mp4' for writing
+frame= 2018 fps= 31 q=28.0 size=N/A time=00:01:24.95 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2033 fps= 31 q=28.0 size=N/A time=00:01:25.56 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2043 fps= 31 q=28.0 size=N/A time=00:01:26.03 bitrate=N/A dup=1 drop=0 speed=1.29x    
+frame= 2056 fps= 31 q=28.0 size=N/A time=00:01:26.57 bitrate=N/A dup=1 drop=0 speed=1.29x    
+frame= 2076 fps= 31 q=28.0 size=N/A time=00:01:27.36 bitrate=N/A dup=1 drop=0 speed=1.29x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82828.mp4' for writing
+frame= 2095 fps= 31 q=28.0 size=N/A time=00:01:28.17 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2117 fps= 31 q=28.0 size=N/A time=00:01:29.11 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2133 fps= 31 q=28.0 size=N/A time=00:01:29.75 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2152 fps= 31 q=28.0 size=N/A time=00:01:30.53 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82829.mp4' for writing
+frame= 2168 fps= 31 q=28.0 size=N/A time=00:01:31.24 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2184 fps= 31 q=28.0 size=N/A time=00:01:31.86 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2201 fps= 31 q=28.0 size=N/A time=00:01:32.58 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2216 fps= 31 q=28.0 size=N/A time=00:01:33.20 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82830.mp4' for writing
+frame= 2231 fps= 31 q=28.0 size=N/A time=00:01:33.86 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2244 fps= 31 q=28.0 size=N/A time=00:01:34.42 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2259 fps= 31 q=28.0 size=N/A time=00:01:35.04 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2275 fps= 31 q=28.0 size=N/A time=00:01:35.70 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2295 fps= 31 q=28.0 size=N/A time=00:01:36.49 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82831.mp4' for writing
+frame= 2311 fps= 31 q=28.0 size=N/A time=00:01:37.17 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2325 fps= 31 q=28.0 size=N/A time=00:01:37.75 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2341 fps= 31 q=28.0 size=N/A time=00:01:38.45 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2363 fps= 31 q=28.0 size=N/A time=00:01:39.32 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82832.mp4' for writing
+frame= 2377 fps= 31 q=28.0 size=N/A time=00:01:39.96 bitrate=N/A dup=1 drop=0 speed= 1.3x    
+frame= 2384 fps= 31 q=28.0 size=N/A time=00:01:40.24 bitrate=N/A dup=1 drop=0 speed=1.29x    
+frame= 2394 fps= 31 q=28.0 size=N/A time=00:01:40.67 bitrate=N/A dup=1 drop=0 speed=1.29x    
+frame= 2405 fps= 31 q=28.0 size=N/A time=00:01:41.07 bitrate=N/A dup=1 drop=0 speed=1.29x    
+frame= 2414 fps= 30 q=28.0 size=N/A time=00:01:41.46 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 2425 fps= 30 q=28.0 size=N/A time=00:01:41.93 bitrate=N/A dup=1 drop=0 speed=1.28x    
+frame= 2433 fps= 30 q=28.0 size=N/A time=00:01:42.25 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 2440 fps= 30 q=28.0 size=N/A time=00:01:42.59 bitrate=N/A dup=1 drop=0 speed=1.27x    
+frame= 2446 fps= 30 q=28.0 size=N/A time=00:01:42.84 bitrate=N/A dup=1 drop=0 speed=1.26x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82833.mp4' for writing
+frame= 2457 fps= 30 q=28.0 size=N/A time=00:01:43.25 bitrate=N/A dup=1 drop=0 speed=1.26x    
+frame= 2466 fps= 30 q=28.0 size=N/A time=00:01:43.68 bitrate=N/A dup=1 drop=0 speed=1.26x    
+frame= 2477 fps= 30 q=28.0 size=N/A time=00:01:44.08 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2492 fps= 30 q=28.0 size=N/A time=00:01:44.72 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2503 fps= 30 q=28.0 size=N/A time=00:01:45.17 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2514 fps= 30 q=25.0 size=N/A time=00:01:45.64 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82834.mp4' for writing
+frame= 2525 fps= 30 q=28.0 size=N/A time=00:01:46.13 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2543 fps= 30 q=28.0 size=N/A time=00:01:46.83 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2558 fps= 30 q=28.0 size=N/A time=00:01:47.52 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2570 fps= 30 q=28.0 size=N/A time=00:01:48.01 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2587 fps= 30 q=28.0 size=N/A time=00:01:48.67 bitrate=N/A dup=1 drop=0 speed=1.24x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82835.mp4' for writing
+frame= 2604 fps= 30 q=28.0 size=N/A time=00:01:49.39 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2619 fps= 30 q=28.0 size=N/A time=00:01:50.05 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2632 fps= 30 q=28.0 size=N/A time=00:01:50.55 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2648 fps= 30 q=28.0 size=N/A time=00:01:51.23 bitrate=N/A dup=1 drop=0 speed=1.24x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82836.mp4' for writing
+frame= 2663 fps= 30 q=28.0 size=N/A time=00:01:51.89 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2683 fps= 30 q=28.0 size=N/A time=00:01:52.72 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2701 fps= 30 q=28.0 size=N/A time=00:01:53.43 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2716 fps= 30 q=28.0 size=N/A time=00:01:54.04 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2731 fps= 30 q=28.0 size=N/A time=00:01:54.71 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82837.mp4' for writing
+frame= 2745 fps= 30 q=28.0 size=N/A time=00:01:55.26 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2763 fps= 30 q=28.0 size=N/A time=00:01:56.01 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2778 fps= 30 q=28.0 size=N/A time=00:01:56.65 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2792 fps= 30 q=28.0 size=N/A time=00:01:57.22 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82838.mp4' for writing
+frame= 2807 fps= 30 q=28.0 size=N/A time=00:01:57.84 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2820 fps= 30 q=28.0 size=N/A time=00:01:58.40 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2833 fps= 30 q=28.0 size=N/A time=00:01:58.97 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2849 fps= 30 q=28.0 size=N/A time=00:01:59.63 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 2873 fps= 30 q=25.0 size=N/A time=00:02:00.61 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82839.mp4' for writing
+frame= 2893 fps= 30 q=28.0 size=N/A time=00:02:01.45 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2910 fps= 30 q=28.0 size=N/A time=00:02:02.19 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2929 fps= 30 q=28.0 size=N/A time=00:02:02.94 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2947 fps= 30 q=28.0 size=N/A time=00:02:03.69 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82840.mp4' for writing
+frame= 2966 fps= 30 q=28.0 size=N/A time=00:02:04.48 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 2982 fps= 30 q=28.0 size=N/A time=00:02:05.16 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3000 fps= 30 q=28.0 size=N/A time=00:02:05.91 bitrate=N/A dup=1 drop=0 speed=1.26x    
+frame= 3014 fps= 30 q=28.0 size=N/A time=00:02:06.48 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82841.mp4' for writing
+frame= 3027 fps= 30 q=28.0 size=N/A time=00:02:07.04 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3041 fps= 30 q=28.0 size=N/A time=00:02:07.65 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3058 fps= 30 q=28.0 size=N/A time=00:02:08.32 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3074 fps= 30 q=28.0 size=N/A time=00:02:08.98 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3090 fps= 30 q=28.0 size=N/A time=00:02:09.66 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82842.mp4' for writing
+frame= 3105 fps= 30 q=28.0 size=N/A time=00:02:10.28 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3116 fps= 30 q=28.0 size=N/A time=00:02:10.77 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3130 fps= 30 q=28.0 size=N/A time=00:02:11.32 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3143 fps= 30 q=28.0 size=N/A time=00:02:11.90 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3156 fps= 30 q=28.0 size=N/A time=00:02:12.45 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82843.mp4' for writing
+frame= 3171 fps= 30 q=28.0 size=N/A time=00:02:13.03 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3184 fps= 30 q=28.0 size=N/A time=00:02:13.56 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3195 fps= 30 q=28.0 size=N/A time=00:02:14.08 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3212 fps= 30 q=28.0 size=N/A time=00:02:14.74 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3227 fps= 30 q=28.0 size=N/A time=00:02:15.40 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82844.mp4' for writing
+frame= 3243 fps= 30 q=28.0 size=N/A time=00:02:16.04 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3263 fps= 30 q=28.0 size=N/A time=00:02:16.91 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3283 fps= 30 q=28.0 size=N/A time=00:02:17.70 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3297 fps= 30 q=28.0 size=N/A time=00:02:18.32 bitrate=N/A dup=1 drop=0 speed=1.25x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82845.mp4' for writing
+frame= 3315 fps= 30 q=28.0 size=N/A time=00:02:19.05 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3329 fps= 30 q=28.0 size=N/A time=00:02:19.62 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3338 fps= 30 q=28.0 size=N/A time=00:02:20.01 bitrate=N/A dup=1 drop=0 speed=1.25x    
+frame= 3351 fps= 30 q=28.0 size=N/A time=00:02:20.58 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 3364 fps= 30 q=28.0 size=N/A time=00:02:21.07 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 3374 fps= 30 q=28.0 size=N/A time=00:02:21.54 bitrate=N/A dup=1 drop=0 speed=1.24x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82846.mp4' for writing
+frame= 3384 fps= 30 q=28.0 size=N/A time=00:02:21.95 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 3391 fps= 29 q=28.0 size=N/A time=00:02:22.25 bitrate=N/A dup=1 drop=0 speed=1.24x    
+frame= 3402 fps= 29 q=28.0 size=N/A time=00:02:22.72 bitrate=N/A dup=1 drop=0 speed=1.23x    
+frame= 3416 fps= 29 q=28.0 size=N/A time=00:02:23.25 bitrate=N/A dup=1 drop=0 speed=1.23x    
+frame= 3425 fps= 29 q=28.0 size=N/A time=00:02:23.68 bitrate=N/A dup=1 drop=0 speed=1.23x    
+frame= 3440 fps= 29 q=28.0 size=N/A time=00:02:24.23 bitrate=N/A dup=1 drop=0 speed=1.23x    
+frame= 3451 fps= 29 q=28.0 size=N/A time=00:02:24.70 bitrate=N/A dup=1 drop=0 speed=1.23x    
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82847.mp4' for writing
+frame= 3465 fps= 29 q=28.0 size=N/A time=00:02:25.30 bitrate=N/A dup=1 drop=0 speed=1.23x    
+
+[q] command received. Exiting.
+
+[hls @ 0x557f36c750] Opening '/config/cache/transcodes/d61f0a5089e4af9cf0ec076c7a5bb82848.mp4' for writing
+frame= 3487 fps= 29 q=-1.0 Lsize=N/A time=00:02:25.36 bitrate=N/A dup=1 drop=0 speed=1.22x    
+video:21801kB audio:1706kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[libx264 @ 0x557f36cfe0] frame I:49    Avg QP:16.55  size: 53540
+[libx264 @ 0x557f36cfe0] frame P:1048  Avg QP:20.55  size: 13651
+[libx264 @ 0x557f36cfe0] frame B:2390  Avg QP:23.50  size:  2257
+[libx264 @ 0x557f36cfe0] consecutive B-frames:  5.7%  6.4%  7.1% 80.9%
+[libx264 @ 0x557f36cfe0] mb I  I16..4: 37.3%  0.0% 62.7%
+[libx264 @ 0x557f36cfe0] mb P  I16..4: 21.0%  0.0%  0.0%  P16..4: 33.8%  0.0%  0.0%  0.0%  0.0%    skip:45.1%
+[libx264 @ 0x557f36cfe0] mb B  I16..4:  1.8%  0.0%  0.0%  B16..8: 11.8%  0.0%  0.0%  direct: 3.4%  skip:83.0%  L0:38.1% L1:47.1% BI:14.8%
+[libx264 @ 0x557f36cfe0] coded y,uvDC,uvAC intra: 28.9% 39.8% 8.8% inter: 5.9% 5.2% 0.1%
+[libx264 @ 0x557f36cfe0] i16 v,h,dc,p: 38% 26% 15% 20%
+[libx264 @ 0x557f36cfe0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 21% 17%  4%  8%  5%  6%  5%  8%
+[libx264 @ 0x557f36cfe0] i8c dc,h,v,p: 45% 24% 22%  9%
+[libx264 @ 0x557f36cfe0] Weighted P-Frames: Y:3.1% UV:1.7%
+[libx264 @ 0x557f36cfe0] kb/s:1227.94

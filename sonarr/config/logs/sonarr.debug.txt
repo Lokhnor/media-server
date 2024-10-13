@@ -1,0 +1,529 @@
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: Judas
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series Nozomanu Fushi no Boukensha (Season
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release '[Judas] Nozomanu Fushi no Boukensha (Season 01) [1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs] (Batch)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release '[ASW] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 [1080p HEVC x265 10Bit][AAC]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[ASW] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 002 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.7|Debug|QualityParser|Trying to parse quality for '[ASW] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: ASW
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[ASW] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[ASW] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release '[ASW] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 [1080p HEVC x265 10Bit][AAC]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki matches an alias for series with TVDB ID: 445252
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release '[Raze] Ao no Exorcist - Yuki no Hate-hen - 02 x265 10bit 1080p 143.8561fps.mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[Raze] Ao no Exorcist - Yuki no Hate-hen - 02 x265 10bit 1080p 143.8561fps.mkv'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. Ao no Exorcist - Yuki no Hate-hen - 002 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.7|Debug|QualityParser|Trying to parse quality for '[Raze] Ao no Exorcist - Yuki no Hate-hen - 02 x265 10bit 1080p 143.8561fps.mkv'
+2024-10-12 23:35:33.7|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: Raze
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[Raze] Ao no Exorcist - Yuki no Hate-hen - 02 x265 10bit 1080p 143.8561fps'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist - Yuki no Hate-hen. TVDB ID for mapping: 248035
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series Ao no Exorcist - Yuki no Hate-hen
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[Raze] Ao no Exorcist - Yuki no Hate-hen - 02 x265 10bit 1080p 143.8561fps'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist - Yuki no Hate-hen. TVDB ID for mapping: 248035
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release '[Raze] Ao no Exorcist - Yuki no Hate-hen - 02 x265 10bit 1080p 143.8561fps.mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Ao no Exorcist - Yuki no Hate-hen matches an alias for series with TVDB ID: 248035
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release 'My Hero Academia S07E19 I Am Here 1080p CR WEB-DL AAC2.0 H 264 DUAL-VARYG (Dual-Audio, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string 'My Hero Academia S07E19 I Am Here 1080p CR WEB-DL AAC2.0 H 264 DUAL-VARYG (Dual-Audio, Multi-Subs)'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. My Hero Academia - S07E19 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.7|Debug|QualityParser|Trying to parse quality for 'My Hero Academia S07E19 I Am Here 1080p CR WEB-DL AAC2.0 H 264 DUAL-VARYG (Dual-Audio, Multi-Subs)'
+2024-10-12 23:35:33.7|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: VARYG
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series My Hero Academia
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release 'My Hero Academia S07E19 I Am Here 1080p CR WEB-DL AAC2.0 H 264 DUAL-VARYG (Dual-Audio, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release '[DKB] Ranma ½ (2024) - S01E02 [1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs][weekly]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[DKB] Ranma ½ (2024) - S01E02 [1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs][weekly]'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. Ranma ½ (2024) - S01E02 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.7|Debug|QualityParser|Trying to parse quality for '[DKB] Ranma ½ (2024) - S01E02 [1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs][weekly]'
+2024-10-12 23:35:33.7|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: DKB
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series Ranma ½ (2024)
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release '[DKB] Ranma ½ (2024) - S01E02 [1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs][weekly]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release '[ASW] Bleach Thousand-Year Blood War - 28 [1080p HEVC x265 10Bit][AAC]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[ASW] Bleach Thousand-Year Blood War - 28 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. Bleach Thousand-Year Blood War - 028 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.7|Debug|QualityParser|Trying to parse quality for '[ASW] Bleach Thousand-Year Blood War - 28 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: ASW
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[ASW] Bleach Thousand-Year Blood War - 28 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Bleach Thousand-Year Blood War. TVDB ID for mapping: 74796
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series Bleach Thousand-Year Blood War
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[ASW] Bleach Thousand-Year Blood War - 28 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Bleach Thousand-Year Blood War. TVDB ID for mapping: 74796
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release '[ASW] Bleach Thousand-Year Blood War - 28 [1080p HEVC x265 10Bit][AAC]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Bleach Thousand-Year Blood War matches an alias for series with TVDB ID: 74796
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release '[Judas] Ao no Exorcist (Blue Exorcist) - S04E02 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[Judas] Ao no Exorcist (Blue Exorcist) - S04E02 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. Ao no Exorcist (Blue Exorcist) - S04E02 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.7|Debug|QualityParser|Trying to parse quality for '[Judas] Ao no Exorcist (Blue Exorcist) - S04E02 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)'
+2024-10-12 23:35:33.7|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.7|Debug|Parser|Release Group parsed: Judas
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[Judas] Ao no Exorcist (Blue Exorcist) - S04E02 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)'
+2024-10-12 23:35:33.7|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist. TVDB ID for mapping: 248035
+2024-10-12 23:35:33.7|Debug|ParsingService|No matching series Ao no Exorcist (Blue Exorcist)
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Release '[Judas] Ao no Exorcist (Blue Exorcist) - S04E02 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.7|Debug|DownloadDecisionMaker|Processing release '[DKB] Chi. Chikyuu no Undou ni Tsuite - S01E03 [1080p][HEVC x265 10bit][Multi-Subs][weekly]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.7|Debug|Parser|Parsing string '[DKB] Chi. Chikyuu no Undou ni Tsuite - S01E03 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.7|Debug|Parser|Episode Parsed. Chi  Chikyuu no Undou ni Tsuite - S01E03 
+2024-10-12 23:35:33.7|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[DKB] Chi. Chikyuu no Undou ni Tsuite - S01E03 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: DKB
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[DKB] Chi. Chikyuu no Undou ni Tsuite - S01E03 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Chi  Chikyuu no Undou ni Tsuite. TVDB ID for mapping: 421583
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Chi  Chikyuu no Undou ni Tsuite
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[DKB] Chi. Chikyuu no Undou ni Tsuite - S01E03 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Chi  Chikyuu no Undou ni Tsuite. TVDB ID for mapping: 421583
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[DKB] Chi. Chikyuu no Undou ni Tsuite - S01E03 [1080p][HEVC x265 10bit][Multi-Subs][weekly]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Chi  Chikyuu no Undou ni Tsuite matches an alias for series with TVDB ID: 421583
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release 'You are Ms. Servant S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string 'You are Ms. Servant S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. You are Ms  Servant - S01E02 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for 'You are Ms. Servant S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: sama
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series You are Ms  Servant
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release 'You are Ms. Servant S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[SubsPlease] Kimi wa Meido-sama - 02 (1080p) [079CF69A].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (1080p) [079CF69A].mkv'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[SubsPlease] Kimi wa Meido-sama - 02 (1080p) [079CF69A].mkv'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: SubsPlease
+2024-10-12 23:35:33.8|Debug|Parser|Release Hash parsed: 079CF69A
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (1080p) [079CF69A]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (1080p) [079CF69A]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[SubsPlease] Kimi wa Meido-sama - 02 (1080p) [079CF69A].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release 'You are Ms Servant S01E02 You Want to Know 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string 'You are Ms Servant S01E02 You Want to Know 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. You are Ms Servant - S01E02 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for 'You are Ms Servant S01E02 You Want to Know 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: VARYG
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series You are Ms Servant
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release 'You are Ms Servant S01E02 You Want to Know 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] Kimi wa Meido-sama - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: English, Spanish, Italian, Russian
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[Erai-raws] Kimi wa Meido-sama - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: SDTV v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[Erai-raws] Kimi wa Meido-sama - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release 'You are Ms. Servant S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string 'You are Ms. Servant S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. You are Ms  Servant - S01E02 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for 'You are Ms. Servant S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: WEBDL-720p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: sama
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series You are Ms  Servant
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release 'You are Ms. Servant S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Kimi wa Meido-sama.)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] Kimi wa Meido-sama - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: English, Spanish, Italian, Russian
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[Erai-raws] Kimi wa Meido-sama - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: HDTV-720p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[Erai-raws] Kimi wa Meido-sama - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[SubsPlease] Kimi wa Meido-sama - 02 (720p) [A7DA3AC8].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (720p) [A7DA3AC8].mkv'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[SubsPlease] Kimi wa Meido-sama - 02 (720p) [A7DA3AC8].mkv'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: HDTV-720p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: SubsPlease
+2024-10-12 23:35:33.8|Debug|Parser|Release Hash parsed: A7DA3AC8
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (720p) [A7DA3AC8]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (720p) [A7DA3AC8]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[SubsPlease] Kimi wa Meido-sama - 02 (720p) [A7DA3AC8].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] You are Ms. Servant S01E02 1080p CR WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[ToonsHub] You are Ms. Servant S01E02 1080p CR WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. You are Ms  Servant - S01E02 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[ToonsHub] You are Ms. Servant S01E02 1080p CR WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series You are Ms  Servant
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[ToonsHub] You are Ms. Servant S01E02 1080p CR WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[SubsPlease] Kimi wa Meido-sama - 02 (480p) [52CD879D].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (480p) [52CD879D].mkv'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[SubsPlease] Kimi wa Meido-sama - 02 (480p) [52CD879D].mkv'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: SDTV v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: SubsPlease
+2024-10-12 23:35:33.8|Debug|Parser|Release Hash parsed: 52CD879D
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (480p) [52CD879D]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[SubsPlease] Kimi wa Meido-sama - 02 (480p) [52CD879D]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[SubsPlease] Kimi wa Meido-sama - 02 (480p) [52CD879D].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] Kimi wa Meido-sama - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: English, Spanish, Italian, Russian
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[Erai-raws] Kimi wa Meido-sama - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] Kimi wa Meido-sama - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[Erai-raws] Kimi wa Meido-sama - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] sonochiyushi - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] sonochiyushi - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Episode Parsed. sonochiyushi - 002 
+2024-10-12 23:35:33.8|Debug|Parser|Languages parsed: English, Spanish, Italian, Russian
+2024-10-12 23:35:33.8|Debug|QualityParser|Trying to parse quality for '[Erai-raws] sonochiyushi - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.8|Debug|Parser|Quality parsed: SDTV v1
+2024-10-12 23:35:33.8|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:33.8|Debug|ParsingService|No matching series sonochiyushi
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Release '[Erai-raws] sonochiyushi - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.8|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] sonochiyushi - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.8|Debug|Parser|Parsing string '[Erai-raws] sonochiyushi - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. sonochiyushi - 002 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: English, Spanish, Italian, Russian
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for '[Erai-raws] sonochiyushi - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: HDTV-720p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series sonochiyushi
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release '[Erai-raws] sonochiyushi - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[Sav1or] Girls und Panzer (Girls & Panzer) + OVAs + Movies [BD][1080p][AV1][OPUS][Multi Dual Audio]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[Sav1or] Girls und Panzer (Girls & Panzer) + OVAs + Movies [BD][1080p][AV1][OPUS][Multi Dual Audio]'
+2024-10-12 23:35:33.9|Debug|Parser|Unable to parse [Sav1or] Girls und Panzer (Girls & Panzer) + OVAs + Movies [BD][1080p][AV1][OPUS][Multi Dual Audio]
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[Sav1or] Girls und Panzer (Girls & Panzer) + OVAs + Movies [BD][1080p][AV1][OPUS][Multi Dual Audio]'
+2024-10-12 23:35:33.9|Debug|Parser|Unable to parse [Sav1or] Girls und Panzer (Girls & Panzer) + OVAs + Movies [BD][1080p][AV1][OPUS][Multi Dual Audio]
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series [Sav1or] Girls und Panzer (Girls & Panzer) + OVAs + Movies [BD][1080p][AV1][OPUS][Multi Dual Audio]
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] sonochiyushi - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[Erai-raws] sonochiyushi - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. sonochiyushi - 002 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: English, Spanish, Italian, Russian
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for '[Erai-raws] sonochiyushi - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series sonochiyushi
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release '[Erai-raws] sonochiyushi - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[DKB] Ao no Exorcist - S04E02 [1080p][HEVC x265 10bit][Multi-Subs][weekly]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[DKB] Ao no Exorcist - S04E02 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. Ao no Exorcist - S04E02 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for '[DKB] Ao no Exorcist - S04E02 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: DKB
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[DKB] Ao no Exorcist - S04E02 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist. TVDB ID for mapping: 248035
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series Ao no Exorcist
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[DKB] Ao no Exorcist - S04E02 [1080p][HEVC x265 10bit][Multi-Subs][weekly]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist. TVDB ID for mapping: 248035
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release '[DKB] Ao no Exorcist - S04E02 [1080p][HEVC x265 10bit][Multi-Subs][weekly]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Ao no Exorcist matches an alias for series with TVDB ID: 248035
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (1080p) [8AE818E2].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (1080p) [8AE818E2].mkv'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 002 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (1080p) [8AE818E2].mkv'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: SubsPlease
+2024-10-12 23:35:33.9|Debug|Parser|Release Hash parsed: 8AE818E2
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (1080p) [8AE818E2]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (1080p) [8AE818E2]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (1080p) [8AE818E2].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki matches an alias for series with TVDB ID: 445252
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release 'The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 Regarding the Banishment Which Was in Fact the Start of a New Voyage 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string 'The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 Regarding the Banishment Which Was in Fact the Start of a New Voyage 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. The Healer Who Was Banished From His Party Is in Fact the Strongest - S01E02 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for 'The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 Regarding the Banishment Which Was in Fact the Start of a New Voyage 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: VARYG
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series The Healer Who Was Banished From His Party Is in Fact the Strongest
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release 'The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 Regarding the Banishment Which Was in Fact the Start of a New Voyage 1080p CR WEB-DL AAC2.0 H 264-VARYG (Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. The Healer Who Was Banished From His Party, Is, in Fact, the Strongest - S01E02 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: Tsundere-Raws
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series The Healer Who Was Banished From His Party, Is, in Fact, the Strongest
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 1080p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (720p) [190E3F3B].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (720p) [190E3F3B].mkv'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 002 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (720p) [190E3F3B].mkv'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: HDTV-720p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: SubsPlease
+2024-10-12 23:35:33.9|Debug|Parser|Release Hash parsed: 190E3F3B
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (720p) [190E3F3B]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (720p) [190E3F3B]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (720p) [190E3F3B].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki matches an alias for series with TVDB ID: 445252
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (480p) [9397C07F].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (480p) [9397C07F].mkv'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 002 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (480p) [9397C07F].mkv'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: SDTV v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: SubsPlease
+2024-10-12 23:35:33.9|Debug|Parser|Release Hash parsed: 9397C07F
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (480p) [9397C07F]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (480p) [9397C07F]'
+2024-10-12 23:35:33.9|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release '[SubsPlease] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (480p) [9397C07F].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki matches an alias for series with TVDB ID: 445252
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. The Healer Who Was Banished From His Party, Is, in Fact, the Strongest - S01E02 
+2024-10-12 23:35:33.9|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:33.9|Debug|QualityParser|Trying to parse quality for 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)'
+2024-10-12 23:35:33.9|Debug|Parser|Quality parsed: WEBDL-720p v1
+2024-10-12 23:35:33.9|Debug|Parser|Release Group parsed: Tsundere-Raws
+2024-10-12 23:35:33.9|Debug|ParsingService|No matching series The Healer Who Was Banished From His Party, Is, in Fact, the Strongest
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Release 'The Healer Who Was Banished From His Party, Is, in Fact, the Strongest S01E02 VOSTFR 720p WEB x264 AAC -Tsundere-Raws (CR) (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:33.9|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 1080p CR WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:33.9|Debug|Parser|Parsing string '[ToonsHub] The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 1080p CR WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:33.9|Debug|Parser|Episode Parsed. The Healer Who Was Banished From His Party Is in Fact the Strongest - S01E02 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[ToonsHub] The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 1080p CR WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series The Healer Who Was Banished From His Party Is in Fact the Strongest
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[ToonsHub] The Healer Who Was Banished From His Party Is in Fact the Strongest S01E02 1080p CR WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[AsukaRaws] Kimi wa Meido-sama - 02 (WEB-DL 1280x720 x264 AAC)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[AsukaRaws] Kimi wa Meido-sama - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Kimi wa Meido-sama - 002 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[AsukaRaws] Kimi wa Meido-sama - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-720p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: AsukaRaws
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[AsukaRaws] Kimi wa Meido-sama - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Kimi wa Meido-sama
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[AsukaRaws] Kimi wa Meido-sama - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meido-sama. TVDB ID for mapping: 443726
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[AsukaRaws] Kimi wa Meido-sama - 02 (WEB-DL 1280x720 x264 AAC)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meido-sama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[Trix] Blue Lock S02E02 (1080p AV1 E-AC3) [Multi Subs] (EN|FR|AR|ES-LA|ES|IT|PT-BR|RU) | Blue Lock VS. U-20 JAPAN (VOSTFR) (Weekly)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[Trix] Blue Lock S02E02 (1080p AV1 E-AC3) [Multi Subs] (EN|FR|AR|ES-LA|ES|IT|PT-BR|RU) | Blue Lock VS. U-20 JAPAN (VOSTFR) (Weekly)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Blue Lock - S02E02 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: French, Russian
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[Trix] Blue Lock S02E02 (1080p AV1 E-AC3) [Multi Subs] (EN|FR|AR|ES-LA|ES|IT|PT-BR|RU) | Blue Lock VS. U-20 JAPAN (VOSTFR) (Weekly)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: Trix
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[Trix] Blue Lock S02E02 (1080p AV1 E-AC3) [Multi Subs] (EN|FR|AR|ES-LA|ES|IT|PT-BR|RU) | Blue Lock VS. U-20 JAPAN (VOSTFR) (Weekly)'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Blue Lock. TVDB ID for mapping: 408629
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Blue Lock
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[Trix] Blue Lock S02E02 (1080p AV1 E-AC3) [Multi Subs] (EN|FR|AR|ES-LA|ES|IT|PT-BR|RU) | Blue Lock VS. U-20 JAPAN (VOSTFR) (Weekly)'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Blue Lock. TVDB ID for mapping: 408629
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[Trix] Blue Lock S02E02 (1080p AV1 E-AC3) [Multi Subs] (EN|FR|AR|ES-LA|ES|IT|PT-BR|RU) | Blue Lock VS. U-20 JAPAN (VOSTFR) (Weekly)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Blue Lock matches an alias for series with TVDB ID: 408629
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] You Are Ms. Servant S01E02 1080p MW WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[ToonsHub] You Are Ms. Servant S01E02 1080p MW WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. You Are Ms  Servant - S01E02 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[ToonsHub] You Are Ms. Servant S01E02 1080p MW WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series You Are Ms  Servant
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[ToonsHub] You Are Ms. Servant S01E02 1080p MW WEB-DL AAC2.0 H.264 (Kimi wa Meido-sama., Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[BonoboSubs]Renegade Immortal - Xian Ni Episode 57' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[BonoboSubs]Renegade Immortal - Xian Ni Episode 57'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Renegade Immortal - Xian Ni - 057 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[BonoboSubs]Renegade Immortal - Xian Ni Episode 57'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: Unknown v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: BonoboSubs
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[BonoboSubs]Renegade Immortal - Xian Ni Episode 57'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Renegade Immortal - Xian Ni. TVDB ID for mapping: 433335
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Renegade Immortal - Xian Ni
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[BonoboSubs]Renegade Immortal - Xian Ni Episode 57'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Renegade Immortal - Xian Ni. TVDB ID for mapping: 433335
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[BonoboSubs]Renegade Immortal - Xian Ni Episode 57' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Renegade Immortal - Xian Ni matches an alias for series with TVDB ID: 433335
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. The Healer who was Banished from his Party is in fact the Strongest - S01E02 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series The Healer who was Banished from his Party is in fact the Strongest
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[AsukaRaws] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (WEB-DL 1280x720 x264 AAC)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[AsukaRaws] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 002 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[AsukaRaws] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-720p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: AsukaRaws
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[AsukaRaws] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[AsukaRaws] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (WEB-DL 1280x720 x264 AAC)'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki. TVDB ID for mapping: 445252
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[AsukaRaws] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki - 02 (WEB-DL 1280x720 x264 AAC)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki matches an alias for series with TVDB ID: 445252
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Bleach - Sennen Kessen Hen - Soukoku Tan - 002 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: English, Spanish, Italian
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: SDTV v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Bleach - Sennen Kessen Hen - Soukoku Tan
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [480p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Bleach - Sennen Kessen Hen - Soukoku Tan - 002 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: English, Spanish, Italian
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: HDTV-720p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Bleach - Sennen Kessen Hen - Soukoku Tan
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [720p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Bleach - Sennen Kessen Hen - Soukoku Tan - 002 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: English, Spanish, Italian
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: Erai-raws
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Bleach - Sennen Kessen Hen - Soukoku Tan
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[Erai-raws] Bleach - Sennen Kessen Hen - Soukoku Tan - 02 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][FRE][GER][ITA]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[ANi] Kimi wa Meidosama /  女僕冥土小姐 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[ANi] Kimi wa Meidosama /  女僕冥土小姐 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2024-10-12 23:35:34.0|Debug|Parser|Substituted with [ANi] Kimi wa Meidosama - 02  [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Kimi wa Meidosama - 002 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Chinese
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for '[ANi] Kimi wa Meidosama /  女僕冥土小姐 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: ANi
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[ANi] Kimi wa Meidosama - 02  [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meidosama. TVDB ID for mapping: 443726
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Kimi wa Meidosama
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[ANi] Kimi wa Meidosama - 02  [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2024-10-12 23:35:34.0|Debug|SceneMappingService|Found scene mapping for: Kimi wa Meidosama. TVDB ID for mapping: 443726
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release '[ANi] Kimi wa Meidosama /  女僕冥土小姐 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Kimi wa Meidosama matches an alias for series with TVDB ID: 443726
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release 'Quality Assurance in Another World S01E02 No 2 Makoto Haga 1080p BILI WEB-DL AAC2.0 H 264-VARYG (Kono Sekai wa Fukanzen Sugiru, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string 'Quality Assurance in Another World S01E02 No 2 Makoto Haga 1080p BILI WEB-DL AAC2.0 H 264-VARYG (Kono Sekai wa Fukanzen Sugiru, Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. Quality Assurance in Another World - S01E02 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.0|Debug|QualityParser|Trying to parse quality for 'Quality Assurance in Another World S01E02 No 2 Makoto Haga 1080p BILI WEB-DL AAC2.0 H 264-VARYG (Kono Sekai wa Fukanzen Sugiru, Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.0|Debug|Parser|Release Group parsed: VARYG
+2024-10-12 23:35:34.0|Debug|ParsingService|No matching series Quality Assurance in Another World
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Release 'Quality Assurance in Another World S01E02 No 2 Makoto Haga 1080p BILI WEB-DL AAC2.0 H 264-VARYG (Kono Sekai wa Fukanzen Sugiru, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.0|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.0|Debug|Parser|Parsing string '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.0|Debug|Parser|Episode Parsed. The Healer who was Banished from his Party is in fact the Strongest - S01E02 
+2024-10-12 23:35:34.0|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series The Healer who was Banished from his Party is in fact the Strongest
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 2160p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[ANi]  被逐出隊伍的治癒師，其實是最強 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[ANi]  被逐出隊伍的治癒師，其實是最強 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. 被逐出隊伍的治癒師，其實是最強 - 002 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Chinese
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[ANi]  被逐出隊伍的治癒師，其實是最強 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: ANi
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series 被逐出隊伍的治癒師，其實是最強
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[ANi]  被逐出隊伍的治癒師，其實是最強 - 02 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. The Healer who was Banished from his Party is in fact the Strongest - S01E02 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series The Healer who was Banished from his Party is in fact the Strongest
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.264 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. The Healer who was Banished from his Party is in fact the Strongest - S01E02 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: ToonsHub
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series The Healer who was Banished from his Party is in fact the Strongest
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[ToonsHub] The Healer who was Banished from his Party is in fact the Strongest S01E02 1080p B-Global WEB-DL AAC2.0 H.265 (Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki, Multi-Subs)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[KiyoshiiSubs] Bleach Thousand-Year Blood War - 28 [1080p][H.265 - 10Bit].mkv' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[KiyoshiiSubs] Bleach Thousand-Year Blood War - 28 [1080p][H.265 - 10Bit].mkv'
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. Bleach Thousand-Year Blood War - 028 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[KiyoshiiSubs] Bleach Thousand-Year Blood War - 28 [1080p][H.265 - 10Bit].mkv'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: KiyoshiiSubs
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[KiyoshiiSubs] Bleach Thousand-Year Blood War - 28 [1080p][H.265 - 10Bit]'
+2024-10-12 23:35:34.1|Debug|SceneMappingService|Found scene mapping for: Bleach Thousand-Year Blood War. TVDB ID for mapping: 74796
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series Bleach Thousand-Year Blood War
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[KiyoshiiSubs] Bleach Thousand-Year Blood War - 28 [1080p][H.265 - 10Bit]'
+2024-10-12 23:35:34.1|Debug|SceneMappingService|Found scene mapping for: Bleach Thousand-Year Blood War. TVDB ID for mapping: 74796
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[KiyoshiiSubs] Bleach Thousand-Year Blood War - 28 [1080p][H.265 - 10Bit].mkv' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Bleach Thousand-Year Blood War matches an alias for series with TVDB ID: 74796
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[ASW] Ao no Exorcist - Yuki no Hate-hen - 02 [1080p HEVC x265 10Bit][AAC]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[ASW] Ao no Exorcist - Yuki no Hate-hen - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. Ao no Exorcist - Yuki no Hate-hen - 002 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[ASW] Ao no Exorcist - Yuki no Hate-hen - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: HDTV-1080p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: ASW
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[ASW] Ao no Exorcist - Yuki no Hate-hen - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:34.1|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist - Yuki no Hate-hen. TVDB ID for mapping: 248035
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series Ao no Exorcist - Yuki no Hate-hen
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[ASW] Ao no Exorcist - Yuki no Hate-hen - 02 [1080p HEVC x265 10Bit][AAC]'
+2024-10-12 23:35:34.1|Debug|SceneMappingService|Found scene mapping for: Ao no Exorcist - Yuki no Hate-hen. TVDB ID for mapping: 248035
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[ASW] Ao no Exorcist - Yuki no Hate-hen - 02 [1080p HEVC x265 10Bit][AAC]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Ao no Exorcist - Yuki no Hate-hen matches an alias for series with TVDB ID: 248035
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[北宇治字幕组] 青之箱 / 青春之箱 / 青春盒子 / 蓝箱 / Ao no Hako / Blue Box [03][WebRip][HEVC_AAC][简繁日内封]' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[北宇治字幕组] 青之箱 / 青春之箱 / 青春盒子 / 蓝箱 / Ao no Hako / Blue Box [03][WebRip][HEVC_AAC][简繁日内封]'
+2024-10-12 23:35:34.1|Debug|Parser|Substituted with [北宇治字幕组] 青春盒子 / 蓝箱 / Ao no Hako / Blue Box  - 03 [WebRip][HEVC_AAC][简繁日内封]
+2024-10-12 23:35:34.1|Debug|Parser|Substituted with [北宇治字幕组] 青春盒子 - 03  [WebRip][HEVC_AAC][简繁日内封]
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. 青春盒子 - 003 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Chinese
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[北宇治字幕组] 青之箱 / 青春之箱 / 青春盒子 / 蓝箱 / Ao no Hako / Blue Box [03][WebRip][HEVC_AAC][简繁日内封]'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: WEBRip-480p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: 北宇治字幕组
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series 青春盒子
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[北宇治字幕组] 青之箱 / 青春之箱 / 青春盒子 / 蓝箱 / Ao no Hako / Blue Box [03][WebRip][HEVC_AAC][简繁日内封]' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Processing release '[Bunny Hat Raw]Ultraman 80 (Family Gekijo) (720p,10-bit x264,AAC)' from 'Nyaa.si (Prowlarr)'
+2024-10-12 23:35:34.1|Debug|Parser|Parsing string '[Bunny Hat Raw]Ultraman 80 (Family Gekijo) (720p,10-bit x264,AAC)'
+2024-10-12 23:35:34.1|Debug|Parser|Episode Parsed. Ultraman - 080 
+2024-10-12 23:35:34.1|Debug|Parser|Languages parsed: Unknown
+2024-10-12 23:35:34.1|Debug|QualityParser|Trying to parse quality for '[Bunny Hat Raw]Ultraman 80 (Family Gekijo) (720p,10-bit x264,AAC)'
+2024-10-12 23:35:34.1|Debug|Parser|Quality parsed: HDTV-720p v1
+2024-10-12 23:35:34.1|Debug|Parser|Release Group parsed: Bunny Hat Raw
+2024-10-12 23:35:34.1|Debug|ParsingService|No matching series Ultraman
+2024-10-12 23:35:34.1|Debug|DownloadDecisionMaker|Release '[Bunny Hat Raw]Ultraman 80 (Family Gekijo) (720p,10-bit x264,AAC)' from 'Nyaa.si (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2024-10-12 23:35:34.1|Info|RssSyncService|RSS Sync Completed. Reports found: 365, Reports grabbed: 0
+2024-10-12 23:35:34.1|Debug|PendingReleaseService|Removing failed releases from pending
