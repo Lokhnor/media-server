@@ -10,6 +10,6 @@ services:
       - UMASK=002
       - TZ=Etc/UTC
     volumes:
-      - /<host_folder_config>:/config
+      - /shared/data/jellyfin/config:/config
       - /shared/data/movies:/movies
       - /shared/data/tvseries:/tvseries

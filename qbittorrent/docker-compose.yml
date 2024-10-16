@@ -10,7 +10,7 @@ services:
       - WEBUI_PORT=8080
       - TORRENTING_PORT=6881
     volumes:
-      - /path/to/qbittorrent/appdata:/config
+      - /shared/data/qbittorrent/config:/config
       - /shared/data/downloads:/downloads
     ports:
       - 8080:8080
