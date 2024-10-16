@@ -8,7 +8,7 @@ services:
       - PGID=0
       - TZ=Etc/UTC
     volumes:
-      - /path/to/sonarr/data:/config
+      - /shared/data/sonarr/config:/config
       - /shared/data/downloads:/downloads
       - /shared/data/tvseries:/tvseries
     ports:
